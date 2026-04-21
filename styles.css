@@ -1,0 +1,110 @@
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+body {
+	background: gainsboro;
+	margin: 0px;
+}
+
+.titulo {
+	background-color: white;
+	text-align: center;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+	margin: auto;
+
+
+}
+
+.cuadrado {
+	width: 900px;
+	height: 900px;
+	background-color: gainsboro;
+	padding: 300px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+
+
+
+
+
+
+
+.fondo-cafe {
+	height: 700px;
+	width: 500px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: -250px;
+	display: flex;
+	flex-direction: column;
+}
+
+.fila {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.fila h3 {
+	margin: 0;
+}
+
+#cafe {
+	width: 500px;
+	height: 225px;
+	display: block;
+}
+
+.fondo-playa {
+
+	height: 700px;
+	width: 500px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+}
+
+.fila-playa {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#kamari {
+	width: 500px;
+	height: 250px;
+}
+
+.fondo-cena {
+	height: 700px;
+	width: 500px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.fila-cena {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#cena {
+	width: 500px;
+	height: 250px;
+}
